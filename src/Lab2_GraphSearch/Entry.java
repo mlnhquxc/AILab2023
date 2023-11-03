@@ -23,7 +23,7 @@ public class Entry {
 		System.out.println(print.printPath(algo2.execute(nodeS, "B", "G")));
 		
 		ISearchAlgo algo3 = new UniformCostSearchAlgo();
-		System.out.println(print.printPath(algo3.execute(nodeS, "C", "E"))
-				+ " Path cost: " + algo3.execute(nodeS, "C", "E").getPathCost());
+		System.out.println(print.printPath(algo3.execute(nodeS, "C", "G"))
+				+ " Path cost: " + algo3.execute(nodeS, "C", "G").getPathCost());
 	}
 }
